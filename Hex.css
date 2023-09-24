@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+margin:0; 
+padding:0;
+box-sizing:border-box;
+}  
+
+body{
+background:#131418;
+font-family: 'poppins', sans-serif;
+}
+
+.container{
+position:absolute; 
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+
+.container .output-box{
+height:180px;  
+width:230px;
+background:#9137F1;
+}
+
+.container .generate-box{
+height:110px; 
+width:230px;
+background:white;
+padding:15px;
+}
+
+.container .generate-box .hex-code{
+height:40px;   
+width:100%;
+border:3px solid #9137F1;
+padding:5px;
+display:flex;
+align-items:center;
+padding-left:10px;
+font-size:14px;
+}
+
+.container .generate-box .copy-btn{
+height:40px; 
+width:40px;
+background:#9137F1;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+position:absolute;
+right:16px;
+font-size:13px;
+cursor:pointer;
+margin-top:-40px;
+}
+
+.container .generate-box .generate-btn{
+all:unset;        
+height:25px;  
+width:95%;
+background:black;
+color:white;
+padding:5px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:2px;
+text-align:center;
+margin-top:5px;
+cursor:pointer;
+font-size:13px;
+}
